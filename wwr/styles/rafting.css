@@ -79,7 +79,6 @@ nav ul li a {
     width: 80%;
     display: flex;
     align-items: center;
-
 }
 
 .hero article img {
@@ -98,4 +97,11 @@ footer {
     background-color: var(--accent-color);
     text-align: center;
     padding: 20px;
+}
+
+footer img {
+    float: center;
+    width: 40px;
+    height: auto;
+    padding-bottom: 20px;
 }

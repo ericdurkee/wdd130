@@ -58,6 +58,10 @@ nav ul li a {
     height: auto;
 }
 
+.hero article p {
+    padding: 21px;
+}
+
 .hero h1 {
     position: absolute;
     top: 40%;
@@ -66,7 +70,7 @@ nav ul li a {
     font-size: 3rem;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px 20px;
+    padding: 20px;
 }
 
 .hero article {
@@ -91,6 +95,20 @@ nav ul li a {
 .history h2 {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.history p {
+    text-align: center;
+}
+
+.adventure h2 {
+    text-align: center;
+}
+
+.adventure img {
+    width: 277px;
+    height: 200px;
+    padding: 10px;
 }
 
 footer {

@@ -9,20 +9,72 @@ nav a {
     padding: 20px;
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%; 
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+
 h1 {
     color: steelblue;
 }
 
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-p {
-    padding: 0;
+.history img {
+    width: 20px;
+    height: auto;
+    margin: 0 20px;
+}
+
+.history p {
+    width: 40%;
+}
+
+.adventure {
+    text-align: center;
+    padding: 20px;
+}
+
+.adventure img {
+    margin: 10px;
+    width: 150px;
+    height: auto;
+    display: inline-block;
+}
+
+.adventure caption {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9rem;
 }
 
 main {
@@ -49,8 +101,3 @@ aside img {
     height: auto;
 }
 
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}

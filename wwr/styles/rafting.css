@@ -171,3 +171,47 @@ footer img {
     height: auto;
     padding-bottom: 20px;
 }
+
+/* Contact page css */
+
+#employees .employee {
+    display: inline-block;
+    text-align: center;
+    margin: 1em;
+}
+
+#employees img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#contact-form label {
+    font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 100%;
+    max-width: 400px;
+}
+
+#contact-form button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1em;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: var(--primary-color);
+}

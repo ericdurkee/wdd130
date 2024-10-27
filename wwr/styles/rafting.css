@@ -22,7 +22,7 @@ a {
 }
 
 header {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
     padding: 20px;

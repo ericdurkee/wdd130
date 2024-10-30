@@ -8,12 +8,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
 }
 
 h1, h2 {
     font-family: 'Merriweather', serif;
     color: var(--primary-color);
+    
 }
 
 a {
@@ -22,7 +23,7 @@ a {
 }
 
 header {
-    display: grid;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -42,7 +43,8 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--accent1-color);
+    text-align: right;
 }
 
 .hero {
@@ -69,8 +71,8 @@ nav ul li a {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3rem;
-    color: var(--accent1-color);
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
     padding: 20px;
 }
 
@@ -79,7 +81,7 @@ nav ul li a {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
     padding: 30px;
     width: 80%;
     display: flex;
@@ -126,7 +128,6 @@ nav ul li a {
     height: auto;
 }
 
-
 .adventure {
     text-align: center;
     margin-bottom: 20px;
@@ -137,18 +138,13 @@ nav ul li a {
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     justify-items: center;
+    color: var(--primary-color);
 }
 
 .adventure img {
     width: 200px;
     height: 120px;
     object-fit: cover;
-}
-
-.adventure caption {
-    font-size: 0.9rem;
-    margin-top: 10px;
-    display: block;
 }
 
 footer {
@@ -158,6 +154,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--accent1-color);
 }
 
 footer nav.sociallinks {

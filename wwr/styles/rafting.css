@@ -71,8 +71,7 @@ nav ul li a {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3rem;
-    color: var(--primary-color);
-    background-color: var(--accent1-color);
+    color: var(--accent1-color);
     padding: 20px;
 }
 

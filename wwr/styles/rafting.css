@@ -215,8 +215,6 @@ footer img {
 
 /* Home page css */
 
-/* Header Styling */
-
 header h1 {
     font-size: 2rem;
 }
@@ -224,7 +222,6 @@ header h1 {
 .hero {
     position: relative;
     text-align: center;
-    color: var(--accent1-color);
 }
 
 .hero-image {
